@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: rgb(234, 224, 207);
+    direction: rtl;
+
+}
+
+@font-face {
+    font-family: iran;
+    src: url(../Css/fonts/IRAN\ Kharazmi.woff);
+}
+
+.banner {
+    background: #213448;
+    background: linear-gradient(191deg, rgba(33, 52, 72, 1) 26%, rgba(0, 0, 0, 1) 70%);
+    padding: 1.5em;
+    text-align: center;
+    color: aliceblue;
+    font-family: iran;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: rgb(84, 119, 146);
+    padding: 0.7em;
+}
+
+.menu a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(234, 224, 207);
+    padding: 0.5em;
+    font-family: iran;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.menu .right {
+    float: left;
+    margin-left: 10px;
+
+}
+
+.menu a:hover {
+    background-color: black;
+    border-radius: 0.3em;
+}
+
+.login {
+    background-color: rgb(84, 119, 146);
+    padding: 1.5em;
+    border-radius: 0.4em;
+    border: 3px solid rgb(33, 52, 72);
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.login div {
+
+    margin: 0.9em 0;
+}
+
+.login input {
+    font-family: iran;
+    padding: 0.9em;
+    border-radius: 0.5em;
+    outline: none;
+    border: 3px solid rgb(33, 52, 72);
+    width: 90%;
+}
+
+.login button {
+    font-family: iran;
+    width: 97%;
+    background-color: rgb(148, 180, 193);
+    border: 3px solid rgb(33, 52, 72);
+    padding: 0.4em;
+    color: rgb(234, 224, 207);
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.login::backdrop {
+    background-color: rgba(33, 52, 72, 0.721);
+}

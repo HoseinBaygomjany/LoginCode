@@ -1,0 +1,62 @@
+@font-face {
+    font-family: iran;
+    src: url(../Css/fonts/IRAN\ Kharazmi.woff);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(234, 224, 207);
+    height: 100vh;
+}
+
+* {
+    font-family: iran;
+}
+
+.register {
+    background-color: rgb(84, 119, 146);
+    border: 2px solid rgb(33, 52, 72);
+    padding: 1em;
+    border-radius: 0.3em;
+    width: 300px;
+    box-shadow: 0 0 20px rgb(33, 52, 72);
+    position: relative;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.register input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2em 0;
+    padding: 0.7em;
+    border: 2px solid rgb(33, 52, 72);
+    border-radius: 0.5em;
+    outline: none;
+    box-shadow: 0 0 5px rgb(33, 52, 72)inset;
+}
+
+.register input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(84, 119, 146);
+}
+
+.register button {
+    font-size: 1em;
+    background-color: rgb(33, 52, 72);
+    width: 100%;
+    border: none;
+    border-radius: 0.4em;
+    text-align: center;
+    color: rgb(234, 224, 207);
+    padding: 0.5em;
+    margin: 5px;
+
+}
+
+.backhome a{
+    text-decoration: none;
+    color: rgb(234, 224, 207);
+}
